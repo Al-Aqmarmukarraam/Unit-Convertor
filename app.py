@@ -7,7 +7,7 @@ st.write("Welcome! select a category, enter a value and get the converted result
 category = st.selectbox("Choose a category", ["Length", "Weight", "Time"])
 
 def convert_units(category, value, unit):
-    if category == "Lenght":
+    if category == "Length":
         if unit == "Kilometers to Miles":
             return value * 0.621371
         elif  unit == "Miles to Kilometers":
